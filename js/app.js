@@ -609,7 +609,7 @@ $(function() {
 const themeBtn = document.querySelector('.color-switcher');
 
 function getCurrentTheme(){
-  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark';
   localStorage.getItem('template.theme') ? theme = localStorage.getItem('template.theme') : null;
   return theme;
 }
@@ -622,7 +622,7 @@ function loadTheme(theme){
 themeBtn.addEventListener('click', () => {
   let theme = getCurrentTheme();
   if(theme === 'dark'){
-    theme = 'light';
+    theme = 'dark';
   } else {
     theme = 'dark';
   }
