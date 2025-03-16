@@ -6673,6 +6673,13 @@ form textarea:required:valid {
 /* Features Socials Start */
 /* ------------------------------------------------*/
 /* Socials Cards */
+
+.pro {
+  color: rgb(0, 255, 255);
+  /* font-style: italic; */
+  font-size:  20px;
+}
+
 .socials-cards {
   position: relative;
 }
