@@ -54,7 +54,7 @@ const fadeInItems = document.querySelectorAll('.loading__fade');
 
 function startLoader() {
   let counterElement = document.querySelector(".loader__count .count__text");
-  let currentValue = 0;
+  let currentValue = 1;
   function updateCounter() {
     if (currentValue < 100) {
       let increment = Math.floor(Math.random() * 10) + 1;
