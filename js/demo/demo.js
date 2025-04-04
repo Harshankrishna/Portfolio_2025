@@ -1,6 +1,6 @@
 // ------------------------------------------------
-// Project Name: Blayden - Personal Portfolio & Resume HTML Template
-// Project Description: Show yourself brightly with Blayden - clean and creative portfolio and resume template!
+// Project Name: Harshan - Personal Portfolio & Resume HTML Template
+// Project Description: Show yourself brightly with Harshan - clean and creative portfolio and resume template!
 // Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean
 // Version: 1.0.0
 // Build Date: June 2024
