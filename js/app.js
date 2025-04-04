@@ -52,21 +52,6 @@ const loadingWrap = document.querySelector('.loading-wrap');
 const loadingItems = loadingWrap.querySelectorAll('.loading__item');
 const fadeInItems = document.querySelectorAll('.loading__fade');
 
-function startLoader() {
-  let counterElement = document.querySelector(".loader__count .count__text");
-  let currentValue = 1;
-  function updateCounter() {
-    if (currentValue < 100) {
-      let increment = Math.floor(Math.random() * 90) + 1;
-      currentValue = Math.min(currentValue + increment, 100);
-      counterElement.textContent = currentValue;
-      let delay = Math.floor(Math.random() * 120) + 25;
-      setTimeout(updateCounter, delay);
-    }
-  }
-  updateCounter();
-}
-startLoader();
 
 imgLoad.on('done', instance => {
   hideLoader();
