@@ -57,7 +57,7 @@ function startLoader() {
   let currentValue = 1;
   function updateCounter() {
     if (currentValue < 100) {
-      let increment = Math.floor(Math.random() * 10) + 1;
+      let increment = Math.floor(Math.random() * 90) + 1;
       currentValue = Math.min(currentValue + increment, 100);
       counterElement.textContent = currentValue;
       let delay = Math.floor(Math.random() * 120) + 25;
